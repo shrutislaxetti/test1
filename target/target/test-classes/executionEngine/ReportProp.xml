@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+    <theme>standard</theme>
+    <encoding>UTF-8</encoding>
+    <protocol>http</protocol>
+    <documentTitle>Test Report - One Identity Manager</documentTitle>
+    <reportName>IDM Automation Report</reportName>
+    <!-- <reportHeadline>QA Release</reportHeadline> -->
+       <theme>white</theme>
+    <dateFormat>MM-dd-yyyy</dateFormat>
+    <timeFormat>HH:mm:ss</timeFormat>
+  </configuration>
+</extentreports>

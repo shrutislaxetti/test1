@@ -1,0 +1,737 @@
+					#Login Page
+					
+loginName_xpath=//input[@placeholder='Login name']
+passWord_xpath=//input[@placeholder='Password']
+loginButton_xpath=//button[text()='Log in']
+
+					#IDM Home Page
+					
+pageTitle_xpath=//h1[@data-imx-identifier='Title']
+
+gallagherIcon_xpath=//img[@class='IconImage']
+
+homeButton_xpath=//a[@title='Start page']
+
+request_xpath=(//span[text()='Request'])[2]
+	myRequests_xpath=//a[text()='My Requests']
+	myActions_xpath=//a[text()='My Actions']
+
+attestation_xpath=(//span[text()='Attestation'])[2]
+	myattestationStatus_xpath=//a[text()='My Attestation Status']
+
+responsibilities_xpath=(//span[text()='Responsibilities'])[2]
+	delegation_xpath=//a[text()='Delegation']
+	people_xpath=//a[text()='People']
+
+manageExternal_xpath=//li/span/span[text()='Manage External']
+	manageexternalTeams_xpath=//li/a[text()='Manage External Teams']
+	manageexternalClients_xpath=//li/a[text()='Manage External Clients']
+	manageexternalUsers_xpath=//a[text()='Manage External Users']
+
+unversalSearch_xpath=//input[@placeholder='Search']
+universalsearchMagnifier_xpath=//button[@data-imx-identifier='SearchbtnHeader']
+
+information_xpath=//i[@title='Information']
+	pendingRequest_xpath=//li[text()='Pending Requests']
+	requestInquiries_xpath=//li[text()='Request Inquiries']
+	pendingAttestations_xpath=//li[text()='Pending Attestations']
+	attestationInquiries_xpath=//li[text()='Attestation Inquiries']
+shoppingcartIcon_xpath=//i[@title='My Requests']
+	requests_xpath=//li[text()='Request']
+	shoppingCart_xpath=//li[text()='Shopping Cart']
+	EditRequest_xpath=//li[text()='Edit Request']
+profileICon_xpath=//i[@class='cux-icon cux-icon--user']
+	myProfile_xpath=//li[text()='My Profile']
+	whitePages_xpath=//li[text()='White Pages']
+	logOff_xpath=//li[text()='Log Off']
+	logofConfirmationYes_xpath=//button[text()='Yes']
+	logofConfirmationNo_xpath=//button[text()='No']
+helpIcon_xpath=//i[@title='Help']
+	help_xpath=//li[text()='Help']
+	connection_xpath=//li[text()='Connection']
+	about_xpath=//li[text()='About']
+
+resourceCentre_xpath=//span[text()='Identity Management Resource Center']	
+startanewRequestile_xpath=//span[text()='Start a new request']
+pendingRequestile_xpath=//span[text()='Pending requests']
+	
+myentitlementAttestations_xpath=//div[@data-imx-identifier='My attestations']
+mydirectReports_xpath=//div[@data-imx-identifier='My Direct Reports']
+
+settings_xpath=//span[contains(text(),'Settings')]
+
+requesprodQuikref¬_xpath= (//span[text()='Quick Reference'])[1]
+
+requestprodVdo_xpath= (//span[text()='Video'])[1]
+
+reqprodanotheruQuikref_xpath=(//span[text()='Quick Reference'])[2]
+
+reqprodanotheruVdo_xpath=(//span[text()='Video'])[2]
+
+reqprdomultiuQuikref_xpath=(//span[text()='Quick Reference'])[3]
+
+reqprdomultiuVdo_xpath=(//span[text()='Video'])[3]
+
+processapprovalQuikref_xpath=(//span[text()='Quick Reference'])[4]
+
+processapprovalVdo_xpath=(//span[text()='Video'])[4]
+
+reqaccessrefuQuikref_xpath=(//span[text()='Quick Reference'])[5]
+
+
+reqaccessrefuVdo_xpath=(//span[text()='Video'])[5]
+
+chkstusreqQuikref_xpath=(//span[text()='Quick Reference'])[6]
+
+
+chkstusreqVdo_xpath=(//span[text()='Video'])[6]
+
+						#My Settings
+						
+mailsubscriptions_xpath=//*[contains(text(),'Mail Subscription')]
+settingsaveButton_xpath=//button[contains(text(),'Save')]
+personaldashboardsettingTab_xpath=//*[contains(text(),'Personal Dashboard')]
+reportsTab_xpath=//*[contains(text(),'Reports')]
+addsubButton_xpath=//button[contains(text(),'Add Subscription')]
+
+					#Request Page
+recipient
+change_xpath=//button[text()='Change']
+prodsearchtextBox_xpath=//input[@title='Find a service item']
+prodsearchMagnifier_xpath=//button[@class='imx-textbox-searchbtn']
+	activedirectoryAccount_xpath=//span[contains(text(),'Active Directory Accounts')]
+	userManagement_xpath=//span[text()='User Management']
+	globalAccess_xpath=//span[text()='Global Access']
+	equipment_xpath=//span[text()='Equipment']
+	gallagherbassett_xpath=//span[text()='Gallagher Bassett']
+	gbs_xpath=//span[text()='Gallagher Benefit Services']
+	ggbIo_xpath=//span[text()='GGB International Operations']
+	ggbUK_xpath=//span[text()='GGB United Kingdom']
+	ggbUS_xpath=//span[text()='GGB United States']
+	rps_xpath=//span[text()='Risk Placement Services']
+	test_xpath=//span[text()='Testing']
+
+
+						#Request DD #My Request Page
+
+startanewReq_xpath=//span[text()='Start a new request']
+startanewReqText_xpath=//span[text()='Browse the service categories for service items to request.']
+reqHistory_xpath=//span[text()='Request History']
+reqHistoryText_xpath=//span[text()='Review the history of your requests.']
+editRequest_xpath=//span[text()='Edit Requests']
+editReqText_xpath=//span[text()='Review and Unsubscribe your currently active requests.']
+maintainTemplate_xpath=//span[text()='Maintain Templates']
+maintainTempText_xpath=//span[text()='Shopping cart templates help with the creation of requests.']
+shoppingCart_xpath=//span[text()='Shopping Cart']
+shoppingCartText_xpath=//span[text()='Shows your shopping cart where you submit IT shop requests.']
+
+
+
+						#Request DD #My Actions
+						
+						
+pendingReq_xpath=//span[text()='Pending Requests']
+pendingReqText_xpath//span[text()='Shows the pending requests that you can approve or deny.']
+approvalHistory_xpath=//span[text()='Approval History']
+approvalHistoruText_xpath=//span[text()='Review your IT shop decisions.']
+requestInquaries_xpath=//span[text()='Request Inquiries']
+requestInquariesText_xpath//span[text()='You may be asked to answer inquiries as part of an approval workflow.']
+
+
+				#Attestation DD #My Attestation Status
+
+membershipTab_xpath=//*[contains(text(),'Membership')]
+groupmembershipTab_xpath=//*[contains(text(),'Group membership')]
+objectattestationTab_xpath=//*[contains(text(),'Object attestation')]
+allattestationcasesTab_xpath=//*[contains(text(),'All attestation cases')]
+viewSetting_xpath=(//*[contains(text(),'View Settings')])[2]
+
+						#Attestation DD #My Actions
+
+pendingAttestation_xpath=**
+pendingAttestationText_xpath=//span[text()='Shows the pending attestation cases that you can approve or deny.']
+attestationHistory_xpath=//span[text()='Attestation History']
+attestationHistoryText_xpath//span[text()='Review your attestation decisions.']
+attestationInquaries_xpath=**
+attestationInquariesText_xpath=//span[text()='//span[text()='You may be asked to answer inquiries as part of an approval workflow.']
+
+
+
+					#Responsibility DD #Delegation
+
+delegationTile_xpath=//span[text()='Delegation']
+delegationtext_xpath=//span[text()='Shows all responsibilities that you can delegate to other employees.']
+delegationHistory_xpath=//span[text()='Delegation History']
+delegationHistoryText_xpath=//span[text()='Shows the history of responsibilities that you have delegated to others, and that have been delegated to you.']
+
+					#Responsibility DD #People
+
+pageHeader_xpath=//span[text()='People']
+txtupperSearch_xpath=//span[text()='To locate a user, enter their name in to the search field and click the magnifying glass.']
+pplsearchtextBox_xpath=//input[@title='Search Terms:']
+pplsearchMagnifier_xpath=//button[@data-imx-identifier='SearchBtn']
+
+ruleViolation_xpath=//button[text()='Rule Violations']
+addanewEmployee_xpath=//button[text()='Add a new employee']
+addanewnonEmployee_xpath=//button[text()='Add a new Non Employee']
+
+backButton_xpath=//img[@role='presentation']
+
+activeEmployee_id=F0_ctl00_ControlRef8_ControlRef15_ControlRef15_ControlRef8b_Main_Main_Container8_GridBand1_gridLoader_R00_R00_0_LinkContainer1
+
+					#Add New Employee Page
+
+employeefirstName_xpath=//div[div[label[span[text()='First name']]]]/following-sibling::div/div/span/input
+employeelastName_xpath=//div[div[label[span[text()='Last name']]]]/following-sibling::div/div/span/input
+employeemiddleName_xpath=//div[div[label[span[text()='Middle name']]]]/following-sibling::div/div/span/input
+employeID_xpath=//input[@title="Employee's personnel number within the company."]
+txtboxManager_xpath=(//a[@class='imx-flex-child ng-binding'])[1]
+managerassignButton_xpath=//div[div[label[span[text()='Manager']]]]/following-sibling::div/div/div/div/button
+txtboxprimaryLocation_xpath=(//a[@class='imx-flex-child ng-binding'])[2]
+primarylocationassignButton_xpath=//div[div[label[span[text()='Primary location']]]]/following-sibling::div/div/div/div/button
+txtboxprimaryDepartment_xpath=(//a[@class='imx-flex-child ng-binding'])[3]
+primarydepartmentassignButton_xpath=(//div[div[label[span[text()='Primary department']]]]/following-sibling::div/div/div/div/button
+
+empsaveButton_xpath=//button[text()='Save']
+
+managerChng_xpath=(//span[text()='Change'])[1]
+primarylocationChng_xpath=(//span[text()='Change'])[2]
+primarydepartmentChng_xpath=(//span[text()='Change'])[3]
+confirmationYes_xpath=//button[text()='Yes']
+confirmationNo_xpath=//button[text()='No']
+
+noADrequired_xpath=//label[text()='No AD Account Required']/preceding-sibling::input
+nonempCompanyAssign_xpath=//div[div[label[span[text()='Company']]]]/following-sibling::div/div/div/div/button
+inputnonempCompanytxtBox_xpath=//div[div[label[span[text()='Company']]]]/following-sibling::div/div/div/div/auto-complete/input
+clicknonempCompanytxtBox_xpath=//div[div[label[span[text()='Company']]]]/following-sibling::div/div/div/div/auto-complete
+pramati_xpath=//li[text()='PRAMATI ()']
+
+empconfirmatinbackButton_xpath=//button[@data-imx-identifier='navigationback']
+										#Manager Popup
+
+managerpopup_xpath=//h2[text()='Manager']
+viewSettings_xpath=//a[@title='Saving, loading and managing of view settings.']
+searchtxtBox_xpath=//input[@id='Popup0_Popup0_ControlRef1_Container6_TableSwitchContainer2_GridBand1_gridLoader_ctl03']
+
+searchMagnifier_xpath=//button[@type='submit']
+nameColumn_xpath=//span[text()='Name']
+
+searchfirstresult_xpath=//span[@id='Popup0_Popup0_ControlRef1_Container6_TableSwitchContainer2_GridBand1_gridLoader_R0A_Label52']
+recentlySelected_xpath=//span[text()='Recently selected']
+closeButton_xpath=//button[text()='Close']
+
+managerTxt_xpath=//auto-complete[@id='F0_ctl00_ControlRef8_ControlRef15_ControlRef15_ControlRef8b_Main_Main_Container1_R0_ControlRef1_ControlRef1_ControlRef4_ctl04_Container6_ColumnEditor2_Container2_AutoComplete1']
+primaryLocation_xpath=//auto-complete[@id='F0_ctl00_ControlRef8_ControlRef15_ControlRef15_ControlRef8b_Main_Main_Container1_R0_ControlRef1_ControlRef1_Container11_ControlRef1_ctl00_Container6_ColumnEditor2_Container2_AutoComplete1']
+primaryDepartment_xpath=//auto-complete[@id='F0_ctl00_ControlRef8_ControlRef15_ControlRef15_ControlRef8b_Main_Main_Container1_R0_ControlRef1_ControlRef1_Container18_ControlRef5_ctl00_Container6_ColumnEditor2_Container2_AutoComplete1']
+addomainRole_xpath=//div[@id='F0_ctl00_ControlRef8_ControlRef15_ControlRef15_ControlRef8b_Main_Main_Container1_R0_ControlRef1_ControlRef1_Container18_ControlRef5_ctl02_Container6_ColumnEditor2_Container2']
+
+
+confirmationPopup_xpath=//div[2class='imx-popup-yesno imx-Modal modal qui qui-modal-dialog fade in ui-draggable']
+popupHeading_xpath=//h2[@class='modal-header  ui-draggable-handle']
+
+
+
+									#Person#Overview
+
+(//div[@class='LayoutpPropRow'])[10]
+
+empdatHeading_xpath=(//div[@class='heading'])[1]
+empdataDescription_xpath=(//div[@class='description'])[1]
+
+overviewTile_xpath=//span[text()='Overview']
+overviewtileText_xpath=//span[text()='Shows the overview for the selected employee with entitlements and requests.']
+masterdataTile_xpath=//span[text()='Master data']
+masterdatatileText_xpath=//span[text()='Shows the master data for this employee.']
+requestsTile_xpath=//span[text()='Requests']
+requesttileText_xpath=//span[text()='The selected employee has submitted 0 requests in the last 30 days.']
+entitlementsTile_xpath=//span[text()='Entitlements']
+entitlementsText_xpath=//span[text()='Shows the entitlements assigned to this employee.']
+attestationTile_xpath=//span[text()='Attestation']
+attestationtileText_xpath=//span[text()='Shows the attestation status of this employee.']
+historyTile_xpath=//span[text()='History']
+historytileText_xpath=//span[text()='Shows historical data for the selected employee.']
+
+
+#MyProfile#Contactdata
+
+lastName_xpath=
+firstName_xpath=
+defaultmaiID_xpath=
+manager_xpath=
+primaryDept_xpath=
+primaryLocation_xpath=
+phone_xpath=
+mobilePhone_xpath
+fax_xpath=
+pictEdit_xpath=
+picDel_xpath=
+generateReportButton_xpath
+esaveButton_xpath=
+
+
+											#Overview Person Record
+
+activrprodRequest_xpath=//*[contains(@title,'Active product requests')]
+	activeprodreqTile_xpath=//div[div[div[*[contains(@title,'Active product requests')]]]]
+accesstoShops_xpath=//*[contains(@title,'Access to shops')]
+	accesstoshopsTile_xpath=//div[div[div[*[contains(@title,'Access to shops')]]]]
+personrecord_xpath=//*[contains(@title,'Person')]
+	personrecordTile_xpath=//div[div[*[contains(@title,'Person')]]]
+idmmgrRoles_xpath=//*[contains(@title,'One Identity Manager application roles')]
+	idmmgrrolesTile_xpath=//div[div[div[*[contains(@title,'One Identity Manager application roles')]]]]
+idmaccouRoles_xpath=//*[contains(@title,'One Identity Manager accountability')]
+	idmaccourolesTile_xpath=//div[div[div[*[contains(@title,'One Identity Manager accountability')]]]]
+activeDirectory_xpath=//*[contains(@title,'Active Directory')]
+	activeDirectoryTile_xpath=//div[div[div[*[contains(@title,'Active Directory')]]]]
+mailBox_xpath=//*[contains(@title,'Mailbox')]
+	mailboxTile_xpath=//div[div[*[contains(@title,'Mailbox')]]]
+systemRoles_xpath=//*[contains(@title,'System roles')]
+	sysrolesTile_xpath=//div[div[*[contains(@title,'System roles')]]]
+accountDefinitions_xpath=//*[contains(@title,'Account definitions')]
+	accountdefTile_xpath=//div[div[div[*[contains(@title,'Account definitions')]]]]
+
+
+#Entitlements - Person record
+
+activrprodRequest_xpath=//*[contains(@title,'Active product requests')]
+	activeprodreqTile_xpath=//div[div[div[*[contains(@title,'Active product requests')]]]]
+accesstoShops_xpath=//*[contains(@title,'Access to shops')]
+	accesstoshopsTile_xpath=//div[div[div[*[contains(@title,'Access to shops')]]]]
+personrecord_xpath=//*[contains(@title,'Person')]
+	personrecordTile_xpath=//div[div[*[contains(@title,'Person')]]]
+idmmgrRoles_xpath=//*[contains(@title,'One Identity Manager application roles')]
+	idmmgrrolesTile_xpath=//div[div[div[*[contains(@title,'One Identity Manager application roles')]]]]
+idmaccouRoles_xpath=//*[contains(@title,'One Identity Manager accountability')]
+	idmaccourolesTile_xpath=//div[div[div[*[contains(@title,'One Identity Manager accountability')]]]]
+activeDirectory_xpath=//*[contains(@title,'Active Directory')]
+	activeDirectoryTile_xpath=//div[div[div[*[contains(@title,'Active Directory')]]]]
+mailBox_xpath=//*[contains(@title,'Mailbox')]
+	mailboxTile_xpath=//div[div[*[contains(@title,'Mailbox')]]]
+systemRoles_xpath=//*[contains(@title,'System roles')]
+	sysrolesTile_xpath=//div[div[*[contains(@title,'System roles')]]]
+accountDefinitions_xpath=//*[contains(@title,'Account definitions')]
+	accountdefTile_xpath=//div[div[div[*[contains(@title,'Account definitions')]]]]
+
+
+
+#Entitlement#EmployeeRecord
+
+entitlementColumn_xpath=//span[text()='Entitlement']
+objectType_xpath=//th/span[text()='Object type']
+description_xpath=//th/span[text()='Description']
+origin_xpath=//th/span[text()='Origin']
+location_xpath=//td[span[span[text()='Location']]]/preceding-sibling::td/span
+businessRole_xpath=//td[span[span[text()='Business Role']]]/preceding-sibling::td/span
+
+
+#Page Title's
+
+
+#Loading Content 
+
+LoadingCont_xpath=//*[contains(text(),'Loading content')]
+
+
+						#Active Directory User Accounts
+activedirectoryUserac_xpath=//a[div[span[text()='Active Directory User Accounts']]]
+activedirectoryUseracc_xpath=//div[span[text()='Active Directory user account:']]/following-sibling::div/div/div/span
+phone_xpath=//div[div[label[span[text()='Phone']]]]/following-sibling::div/div/span/input
+ipphoneNumber_xpath=//div[div[label[span[text()='IP phone number']]]]/following-sibling::div/div/span/input
+mobilePhone_xpath=//div[div[label[span[text()='Mobile phone']]]]/following-sibling::div/div/span/input
+fax_xpath=//div[div[label[span[text()='Fax']]]]/following-sibling::div/div/span/input
+
+
+
+
+#External Team Management
+
+searchTeam_xpath=//*[contains(@class,'imx-textbox imx-textbox-search')]
+
+searchBut_xpath=//*[contains(@class,'imx-textbox-searchbtn')]
+
+productDd_xpath=//select[contains(@class,'imx-combobox')]
+
+addexternalteamBtn_xpath=//button[contains(text(),'Add a New External Team')]
+
+businessroleGrid_xpath=//span[text()='Business Role']
+
+selectbutton_xpath=//button[contains(text(),'Select')]
+
+
+#Add an External Team
+
+aetpageHeading_xpath=//span[text()='Add an External Team']
+
+toaddTeamtxt_xpath=//span[contains(text(),'To add a new Team')]
+
+
+productDd_xpath=//div[span[span[text()='Product:']]]/following-sibling::div/span/div/select
+
+teamName_xpath=//div[span[span[text()='Team Name:']]]/following-sibling::div/span/div/input
+
+teamRegion_xpath=//div[span[span[text()='Team Region:']]]/following-sibling::div/span/div/input
+
+adgrpTLtxt_xpath=//div[span[span[text()='AD Group Team Lead:']]]/following-sibling::div/span/span
+
+adgrpTMtxt_xpath=//div[span[span[text()='AD Group Team Member:']]]/following-sibling::div/span/span
+
+tmDisplayname_xpath=//div[span[span[text()='Team Member Display Name:']]]/following-sibling::div/span/span
+
+tmDescritpion_xpath=//div[span[span[text()='Team Member Description:']]]/following-sibling::div/span/span
+
+saveBtn_xpath=//button[text()='Save']
+
+savenewTeampopup_xpath=//div[h2[contains(@title,'Save New External Team')]]
+
+savenewTeamheader_xpath=//span[contains(text(),'15 minutes for')]
+cancelPopUp_xpath=//button[text()='Cancel']
+
+unabletosavepopup_xpath= //h2[contains(text(),'Unable to Save')]
+
+okbutton_xpath=//button[contains(text(),'OK')]
+
+
+
+
+
+#External Client Management
+
+searchTeam_xpath=//*[contains(@class,'imx-textbox imx-textbox-search')]
+
+searchBut_xpath=//*[contains(@class,'imx-textbox-searchbtn')]
+
+textbelowtitle_xpath=//span[contains(text(),'On this page you can view and edit clients you are responsible for. To add a new Client, click the "Add a New External Client" button below.')]
+
+activeexternalclient_xpath=//*[contains(text(),'Active External Clients')]
+
+productDd_xpath=(//select[contains(@class,'imx-combobox')])[1]
+
+teamDd_xpath=(//div[div[span[contains(text(),'Team:')]]]/following-sibling::div/div/div/select)
+
+addexternalClient_xpath=//button[text()='Add a New External Client']
+
+Sarchexternalclientpopup_xpath=//div[@id='Popup0_Popup0_Container1']
+
+searchexternalclientstext_xpath=//h2[contains(text(),'Search for External Clients')]
+
+noresultstext_xpath=//span[contains(text(),'There were no results for your search.')]
+
+selectbutton_xpath=//button[contains(text(),'Select')]
+
+
+#Add a New External Client
+
+addclientproductDdold_xpath=//div[span[span[contains(text(),'Product:')]]]/following-sibling::div/span/div/select
+
+addclientproductDdnew_xpath=(//*[@id="F0_ctl00_ControlRef8_ControlRef15_ControlRef15_ControlRef8b_Main_Main_Container2_ComboBox2"])
+
+addclientteamDdold_xpath=//div[span[span[contains(text(),'Team:')]]]/following-sibling::div/span/div/select
+
+addclientteamDdnew_xpath=(//*[@id="F0_ctl00_ControlRef8_ControlRef15_ControlRef15_ControlRef8b_Main_Main_Container2_ComboBox1"])
+
+clientName_xpath=(//*[contains(@class,'imx-textbox')])[1]
+
+adgrpexternalUser_xpath=//span[contains(text(),'externaluser')]
+
+externaluserdisplayName_xpath=//span[contains(text(),'- External')]
+
+exterbaluprodDesc_xpath=//span[contains(text(),'Grants External User access')]
+
+adgrpclientMember_xpath=//span[contains(text(),'member')]
+
+clientmemberdisplayname_xpath=//span[contains(text(),'GBS Insight -  - Client')]
+
+clientmemberprodDesc_xpath=//span[contains(text(),'Grants Client Member access')]
+
+Savebtn_xpath=//button[contains(text(),'Save')]
+
+Cancelbtn_xpath=//button[contains(text(),'Cancel')]
+
+successmessage_xpath=//span[contains(text(),'The New Client Company has been saved. Please allow up to 15 minutes for the Client Site to become available in the Manage External Client Users section. An email containing relevant Client Site details will be sent to all Administrators and assigned Team Leads')]
+
+unabletosavepopup_xpath=//div[@id='Popup0_Popup0_Container1']
+
+unabletosavemsg_xpath=//h2[contains(text(),'Unable to Save')]
+
+existingteamnameerror_xpath=//span[contains(text(),'must not match an existing Team Name')]
+
+existingclientnameerror_xpath=//span[contains(text(),'must not match an existing Client Name')]
+
+
+#Edit an External client
+
+Deleteclient_xpath=//button[contains(text(),'Delete Client')]
+
+Deleteunavailable_xpath=//h2[contains(text(),'Delete Unavailable')]
+
+Editclientbutton_xpath=//button[contains(text(),'Edit Client Name')]
+
+textinsideeditclient_xpath=//span[contains(text(),'Please verify the information below.  Upon saving, details of the new Client Name will be Emailed.')]
+
+Editclientpopup_xpath=//h2[contains(text(),'Edit Client Name')]
+
+
+Newclientname_xpath=//input[@name='Popup0$Popup0$ControlRef1$Container19$TextBox3']
+
+Okbutton_xpath=//button[contains(text(),'OK')]
+
+Cancelbutton_xpath=//button[contains(text(),'Cancel')]
+
+unabletosavepopup_xpath=//h2[contains(text(),'Unable to Save')]
+
+errortextinsideunabletosave_xpath=//span[contains(text(),'must not match an existing Client Name')]
+
+successmsg_xpath=//span[contains(text(),'The Client Site has been saved. The changes may take a couple of minutes to take effect. The details will be dispatched to your email account.')]
+
+Deleteclientpopup_xpath=//h2[contains(text(),'Delete Client')]
+
+textinsidedeleteclientpopup_xpath=//span[contains(text(),'Are you sure you want to delete this client?  This can not be undone, and will take a few minutes to propagate throughout the system.  Any edits to the client name will also be lost.')]
+
+deleteclientmesage_xpath=//span[contains(text(),'This Client Site will be deleted. The changes may take a couple of minutes to take effect. The details will be dispatched to your email account.')]
+#Manage External Users
+
+meusearchTerm_xpath=//*[contains(@class,'imx-textbox imx-textbox-search')]
+
+meusearchbutton_xpath=//*[contains(@class,'imx-textbox-searchbtn')]
+
+addanewexternaluserBtn_xpath=//button[text()='Add a New External User']
+
+selectbtn_xpath=//button[contains(text(),'Select')]
+
+//div[div[div[div[div[table[tbody[tr[td[span[span[contains(text(),'4KB_1004')]]]]]]]]]]]/preceding-sibling::h3[1]/span
+
+
+
+
+#Add a New External User
+
+addexternalusertext_xpath=//span[contains(text(),'Add a New External User')]
+
+aneProddd_xpath=//div[span[span[text()='Product:']]]/following-sibling::div/div/select
+
+aneTeamdd_xpath=//div[span[span[text()='Team:']]]/following-sibling::div/div/select
+
+
+
+aneClientdd_xpath=//div[span[span[text()='Client:']]]/following-sibling::div/div/select
+
+extfName_xpath=//input[contains(@title,'first name')]
+
+
+extMName_xpath=//input[contains(@title,'Middle name')]
+
+extLName_xpath=//input[contains(@title,'Last name')]
+
+extEmailid_xpath=//input[contains(@title,'email address')]
+
+extsaveBtn_xpath=//button[text()='Save']
+
+extConfirmationYes_xpath=//button[text()='Yes']
+
+extConfirmationNo_xpath=//button[text()='No']
+
+
+#ProdReq#RecipientChng
+
+recipientPopup_xpath=//div[h2[@title='Recipients']]
+
+searchtxtBox_xpath=(//input[@aria-label='Enter search term and press ENTER'])[1]
+
+searchMagnifier_xpath=//button[@title='Starts with...']
+
+firstsearchResult_xpath=(//li/div/span[contains(@class,'imx-icon imx-icon-Assigned')])[1]
+
+selectedPopup_xpath=//*[text()='Selected']
+
+
+selectedRecipient_xpath=(//span[contains(@class,'multiselect-delete')])[1]
+
+closeButton_xpath=//*[text()='Close']
+
+
+
+
+
+#Request#Actions
+
+actionsMenu_xpath=//a[span[text()='Actions']]
+
+selectarefUser_xpath=//*[text()='Select a reference user']
+
+selectareqTemplate_xpath=//*[text()='Select a request template']
+
+chkreqRecipient_xpath=//*[text()='Check requests for this recipient']
+
+#Choose#Template
+
+chooseTemplatepop_xpath=//div[h2[@title='Choose a template']]
+#Connection
+
+#MyShoppingCart
+
+textArea_xpath=//textarea[@class='imx-textbox imx-textbox-mandatory']
+deleteItem_xpath=//img[@alt='Delete this request.']
+saveItem_xpath=(//img[@class='img1616 IconImage'])[2]
+actionSaveforLater_xpath=//li[@title='Move this request to saved for later.']
+actionRequmm_xpath=//li[@title='Request this product for multiple employees']
+
+actionViewsavedlater_xpath=//li[@title='Show the requests in your saved for later list.']
+deleteShoppingCart_xpath=//li[@title='Removes all requests from the shopping cart.']
+deletInvalidreq_xpath=//li[@title='Deletes requests that cannot be submitted']
+createTemplatefrmshocart_xpath=//li[@title='Creates a new template containing the products in your shopping cart.']
+checkShoppingcart_xpath=//li[@title='Check your request for possible errors']
+editButton_xpath=//button[text()='Edit']
+submitButton_xpath=//button[text()='Submit']
+
+
+
+
+#ShoppingCart>SavedforLater
+
+textArea_xpath=//textarea
+movetoShoppingcart_xpath=//li[@title='Move this request to your current shopping cart.']
+deleteProduct_xpath=//img[@data-imx-identifier='delete']
+saveComment_xpath=//img[@data-imx-identifier='save']
+
+#MyShoppingCart>Actions
+#Information>PendingRequest
+
+productCol_xpath= //*[contains(@id,'AccProductSwitchContainer1_Label1')]
+prodDescription_xpath= //*[contains(@id,'CCCLabel2')]
+
+requestStatus_xpath= //td[span[@class='imx-icon imx-icon-Workflow']]
+
+requestDate_xpath=//td[div[abbr[@class='timeago']]]
+
+recipientName_xpath=//td[span[span[contains(@title,', ')]]]
+
+approveChk_xpath=//div/div/div/input[@title='Approve']
+
+denyChk_xpath=//div/div/div/input[@title='Deny']
+
+approveAll_xpath=//input[@title='Approve all']
+
+denyAll_xpath=//input[@title='Deny all']
+
+#Information>Request Inquiries
+
+productName_xpath=//td[div[contains(@id,'ContainerTemplate1')]]
+
+prodDesc_xpath=//td[contains(@id,'CCCCell1')]
+
+prodStatus_xpath=//tr/td/span[contains(text(),'Request')]
+
+requestedDate_xpath=//tr/td/div/abbr[@class='timeago']
+
+recipientName_xpath=//td[span[span[contains(@title,', ')]]]
+ informationTab_xpath=//*[text()='Information']
+
+workflowTab_xpath=//*[text()='Workflow']
+
+complianceTab_xpath=//*[text()='Compliance']
+
+entitlementTab_xpath=//*[text()='Entitlements']
+
+responfButton_xpath=//*[text()='Respond']
+
+#Attestation#Inquaries
+question_xpath=//td[span[contains(text(),'/201')]]
+
+respondButton_xpath=//button[text()='Respond']
+
+
+
+				#Edit and External Team
+			
+editextOrganizationalinfo_xpath=//*[text()='Organizational information']
+
+editextTeamleads_xpath=//*[text()='Team Leads']
+				
+editextProd_xpath=//div[span[span[text()='Product:']]]/following-sibling::div/div/span
+		
+editextTeam_xpath=//div[span[span[text()='Team:']]]/following-sibling::div/div/span[1]
+
+editextRegion_xpath=//div[span[span[text()='Region:']]]/following-sibling::div/div/span[1]
+
+editextAdsgrpteamlead_xpath=//div[span[span[text()='ADS Group Team Lead:']]]/following-sibling::div/div/span
+
+editextAdsgrpteammember_xpath=//div[span[span[text()='ADS Group Team Member:']]]/following-sibling::div/div/span
+
+editextTeammemberdisplayname_xpath=//div[span[span[text()='Team Member Display Name:']]]/following-sibling::div/div/span[1]
+
+editextTeammemberdescrption_xpath=//div[span[span[text()='Team Member Description:']]]/following-sibling::div/div/span[1]
+
+editextAssignedteamlead_xpath=//div[span[span[text()='Assigned Team Leads:']]]/following-sibling::div/div/span[1]
+
+editExternalteam_xpath=//*[text()='Edit an External Team']
+
+editExternalChange_xpath=//*[text()='Change']
+
+movetodifferentTeam_xpath=//*[text()='Move to a different Team']
+
+deeletTeam_xpath=//*[text()='Delete Team']
+
+editRegion_xpath=//*[text()='Edit Region']
+
+editTeamname_xpath=//*[text()='Edit Team Name']
+
+editexternalteamSave_xpath=//*[text()='Save']
+
+#Save Changes to External Team
+
+savechangestoexternalTeamPopup_xpath=//div[h2[text()='Save changes to External Team']]
+
+teamsiteChangedconfirmation_xpath=//*[contains(text(),'The Team Site have been saved. The changes')]
+
+#External#Change Team Lead#Recipient
+
+editexternalteamrecipientPopup_xpath=//div[h2[text()='Recipients']]
+
+
+#Edit Team Region
+
+editteamRegionpopup_xpath=//div[h2[text()='Edit Team Region']]
+
+originalTeamregion_xpath=//div[span[span[text()='Original Team Region:']]]/following-sibling::div/div/span
+
+newRegion_xpath=//div[span[span[text()='New Region:']]]/following-sibling::div/div/input
+
+
+#Edit Team Name
+
+editTeamnamepopup_xpath=//div[h2[text()='Edit Team Name']]
+
+originalTeamname_xpath=//div[span[span[text()='Original Team Name:']]]/following-sibling::div/div/span
+
+newTeamname_xpath=//div[span[span[text()='New Team Name:']]]/following-sibling::div/div/div/input
+
+Okbutton_xpath=//button[contains(text(),'OK')]
+
+
+#Delete Unavailable
+
+deleteUnavpopup_xpath=//div[h2[text()='Delete Unavailable']]
+
+clientAssociatedmessage_xpath=//*[contains(text(),'Client site(s) associated to this Team')]
+
+#Delete Team
+
+deleteTeampopup_xpath=//div[h2[contains(text(),'Delete Team')]]
+
+deleteTeammessage_xpath=//*[contains(text(),'Are you sure you want to delete this team?')]
+
+teamDeletedconfirmationmessage_xpath=//*[contains(text(),'This Team Site will be deleted.')]
+
+
+
+
+#Move Client to a different Team
+
+moveClienttodifferentteampopup_xpath=//div[h2[contains(text(),'Move Client to a')]]
+
+moveClientconfirmationpopup_xpath=(//div[h2[contains(text(),'Move Client to a')]])[2]
+
+moveclientotteamDropdown_xpath=//div[span[contains(text(),'Move Client Site:')]]/following-sibling::div/select
+
+movenowBtn_xpath=//button[contains(text(),'Move now')]
+
